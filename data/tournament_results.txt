@@ -1,6 +1,0 @@
-001    1      Duong, Gia Duy                    1706                             2.0    2     6 w 1     2 w 0     3 b 1
-001    2      Tornqvist, Mikko                  1672                             3.0    1     5 w 1     1 b 1     6 w 1
-001    3      Stenman, Olavi                    1540                             2.0    3     4 w 1     5 b 1     1 w 0
-001    4      Tuovinen, Jukka                   1477                             1.0    5     3 b 0     6 b 1     5 w 0
-001    5      Vaara, Arto                       1447                             1.0    4     2 b 0     3 w 0     4 b 1
-001    6      Rossi, Jorma                       859                             0.0    6     1 b 0     4 w 0     2 b 0
