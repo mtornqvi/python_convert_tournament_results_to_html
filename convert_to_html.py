@@ -1,19 +1,6 @@
 import regex
-from bs4 import BeautifulSoup
-
-class Player:
-    def __init__(self):
-        self.id = None
-        self.name = None
-        self.points = None
-        self.opponent_ids = []
-        self.won_opponent_ids = []
-        self.drawn_opponent_ids = []
-        self.lost_opponent_ids = []
-        self.results = []
-        self.buchholz = None
-        self.sonneborn_berger = None
-        self.order = None
+from convert_to_excel import convert_to_excel
+from player import Player
 
 # Define a regular expression pattern
 # \p{L} : any kind of letter from any language
@@ -146,5 +133,7 @@ def convert_to_html(tournament_results):
     # Footer for the HTML table
     html_content += "\t</tbody>\n"
     html_content += "</table>\n"
+
+    convert_to_excel(players)
 
     return html_content
